@@ -10,7 +10,8 @@
 
 ## ✨ Features
 
-- **Home / Landing Page** – Stylish introduction to Madhur Sharma.
+- **Home / Landing Page** – Modern Landing Page.
+- **About Section** – Information about the singer and his journey.
 - **Albums** – Display of albums with cover images and track information.
 - **Gallery** – Collection of photos and media featuring the singer.
 - **Tour Dates** – Information about upcoming concerts and events.
@@ -27,9 +28,9 @@
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-Check out the live demo: [Insert Live Demo Link Here]
+Check out the live demo: [https://shivapareek.github.io/Lyrica/](https://shivapareek.github.io/Lyrica/)
 
 ---
 
@@ -38,7 +39,6 @@ Check out the live demo: [Insert Live Demo Link Here]
 **Shiva Pareek**  
 B.Tech CSE Student  
 pareekshiva2004@gmail.com
-
 
 ---
 
