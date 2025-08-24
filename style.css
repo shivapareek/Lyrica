@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  
+}
+
+.hero{
+  background-image: url('images/hero.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 0 100px;
+}
+.header .logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.header nav a{
+  color: white;
+  text-decoration: none;
+  margin: 0 7px;
+  font-size: 15px;
+}
+.header nav a:hover{
+  text-decoration: underline;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 15px;       
+  color: white;         
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+
+      border: 1px solid #41393A;
+  border-radius: 50%;    
+  padding: 12px;              
+
+
+}
+
+.social-icons i:hover {
+  color: #ff4c4c;      
+  transform: scale(1.2); 
+}
+
+.logo{
+  display: flex;
+
+}
+.logo img{
+  height: 40px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+
+.navbar ul{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+
+.hero-content{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 42%;
+  transform: translateY(-50%);
+}
+.hero-content h1{
+  font-size: 122px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.hero-content button {
+    padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  background: linear-gradient(135deg, #ff4c4c, #ff8c00); 
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.about-section{
+  margin: 120px  0 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+  padding: 0 100px;
+}
+.about-img{
+  height: 500px;
+  width: 400px;
+  overflow: hidden;
+}
+.about-section img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.about-content{
+  width: 50%;
+}
+.about-content h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.about-content p{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #727272;
+}
+
+.mini-album{
+  margin: 150px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-album img{
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.section-heading{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 36px;
+}
+
+.albums-container {
+  
+  margin: 60px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.album {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  padding: 50px 70px 50px 70px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  max-width: 340px;
+  height: 450px;
+  gap: 13px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.album h3 {
+  font-size: 22px;
+  text-align: center;
+    font-family:  "Helvetica Neue", sans-serif;
+}
+.album p {
+  color: gray;
+  text-align: center;
+}
+.album button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  background: linear-gradient(135deg, #ff4c4c, #ff8c00); 
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  align-self: center;
+}
+
+.album:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+.album img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5spx;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-container{
+  padding:0 200px; ;
+  margin: 60px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gallery-container img{
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.tour-dates-container{
+  margin: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+.tour-date {
+  background: linear-gradient(135deg, #ffffff, #f9f9f9); 
+  padding: 18px 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tour-date:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+.tour-date h3{
+  font-size: 24px;
+}
+.tour-date p{
+  font-size: 18px;
+  color: gray;
+}
+.tour-date-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tour-btn button{
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  background: linear-gradient(135deg, #ff4c4c, #ff8c00); 
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.contact-container{
+  margin: 80px  250px;
+display: flex;
+padding: 20px;
+justify-content: space-evenly;
+background-color: #ffffff;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+border-radius: 15px;
+}
+.contact-img img{
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-form{
+  margin: 50px 0;
+}
+.contact-container input, .contact-container textarea{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+}
+.contact-form button{
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  background: linear-gradient(135deg, #ff4c4c, #ff8c00); 
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
