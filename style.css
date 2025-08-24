@@ -33,7 +33,7 @@
   font-size: 15px;
 }
 .header nav a:hover{
-    color: #ff4c4c;  
+    color: #ff4c4c; 
 }
 .social-icons {
   display: flex;
@@ -336,4 +336,124 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 100px;
+}
+
+
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .gallery-container{
+    padding:0 50px; 
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .mini-album img,
+  .gallery-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .albums-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
+  .tour-dates-container {
+    padding: 0 20px;
+  }
+
+
+  .contact-container {
+    flex-direction: column;
+    margin: 40px 20px;
+    align-items: center;
+  }
+
+  .contact-img img,
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 15px;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1160px) {
+  .header {
+    margin: 0 40px;
+    padding: 30px;
+  }
+
+  .gallery-container{
+    padding:0 50px; 
+  }
+  .hero-content h1 {
+    font-size: 90px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+
+
+  .contact-container {
+    flex-direction: column;
+    margin: 60px 40px;
+    align-items: center;
+  }
+
+  .contact-img img,
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+  }
 }
