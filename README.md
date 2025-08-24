@@ -37,7 +37,8 @@ Check out the live demo: [Insert Live Demo Link Here]
 
 **Shiva Pareek**  
 B.Tech CSE Student  
-[Your Email / Contact Info]
+pareekshiva2004@gmail.com
+
 
 ---
 
